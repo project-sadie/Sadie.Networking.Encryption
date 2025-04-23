@@ -4,7 +4,7 @@ using Sadie.Options.Options;
 
 namespace Sadie.Networking.Encryption;
 
-public static class EncryptionServiceCollection
+public static class EncryptionServiceProvider
 {
     public static void AddServices(IServiceCollection serviceCollection, IConfiguration config)
     {
